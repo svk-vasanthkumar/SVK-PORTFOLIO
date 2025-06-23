@@ -194,13 +194,16 @@ header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #00a2ff;
+  color: #e8eeed;
+  font-family: cursive;
+  text-shadow: 1px 2px #01d138 ;
+    animation: infinite alternate;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #00e5ff00;
 }
 header .navbar ul {
   list-style: none;
