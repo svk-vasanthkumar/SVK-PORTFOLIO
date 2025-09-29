@@ -1,1 +1,1 @@
-SVK
+SVK own portfolo
