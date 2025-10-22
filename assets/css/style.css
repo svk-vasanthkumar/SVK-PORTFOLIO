@@ -76,6 +76,29 @@ body {
 }
 
 
+.experience  .heading{
+  margin-bottom: 8rem;
+}
+.experience .heading i{
+  background: linear-gradient(
+        to right,
+        #d94100 20%,
+        #bf3904 30%,
+        #d26822 70%,
+        #d23905 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+}
+    .experience .heading span{
+  color: white;
+  font-family: cursive;
+}
+
+
+
 .skills h2 {
   background: linear-gradient(
         to right,
@@ -938,6 +961,207 @@ background: linear-gradient(
 }
 /* education media queries ends*/
 /* education section ends */
+
+
+/* experience section starts */
+.experience .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+.experience .timeline::after {
+  content: "";
+  position: absolute;
+  width: 1.7px;
+  background : linear-gradient(
+        to bottom,
+        #00ebe3 20%,
+        #00ccff 30%,
+        #03beec 70%,
+        #009efa 80%
+    );
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -2;
+  
+}
+.experience .container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+/*circles on timeline*/
+/* .experience .container::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 2px;
+  left: 276px;
+  background-color: #ffffff;
+  border: 4px solid #03ae4d00;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 100;
+  font-size: 1.89rem;
+  text-align: center;
+  font-weight: 600;
+  color: #4a4e6e;
+} */
+
+
+.experience .left {
+  left: 0;
+}
+.experience .right {
+  left: 50%;
+}
+/* arrows pointing right */
+
+
+
+/* .experience .left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #c61c5d;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #e20000;
+} */
+
+
+/* arrows pointing left  */
+
+
+
+/* .experience .right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #09d3f6;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #09bbf6 transparent transparent;
+} */
+
+
+.experience .right::after {
+  left: -16px;
+}
+.experience .content {
+  background-color: #191919;
+  position: relative;
+  border-radius: 40px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
+  transition: 0.3s;
+}
+.experience .container:hover .content {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00f0ff;
+} 
+.experience .content .tag {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  color: #07f403;
+}
+.experience .content .desc {
+  margin-left: 1.5rem;
+  padding-bottom: 1rem;
+  color: #f5f5f5;
+}
+.experience .content .desc h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.experience .content .desc p {
+  font-size: 1.2rem;
+}
+/* view all button */
+.morebtn {
+  display: flex;
+  justify-content: center;
+}
+.morebtn .btn {
+  position: relative;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.5s;
+  color: #ae0404;
+  background: #200cb8;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  text-align: center;
+}
+.morebtn .btn span {
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: "Nunito", sans-serif;
+}
+.morebtn .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.morebtn .btn:hover {
+  background: #1a047e;
+}
+.morebtn .btn:hover i {
+  transform: translateX(5px);
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  .experience {
+    min-height: 80vh;
+  }
+  .experience .timeline {
+    margin-top: 2rem;
+  }
+  .experience .timeline::after {
+    left: 31px;
+  }
+  .experience .container {
+    width: 100%;
+    padding-left: 8rem;
+    padding-right: 2rem;
+  }
+  .experience .container::after {
+    font-size: 2.2rem;
+  }
+  .experience .container::before {
+    left: 61px;
+    border: medium solid #f68c09;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #f68c09 transparent transparent;
+  }
+  .experience .left::after {
+    left: 15px;
+  }
+  .experience .right::after {
+    left: 15px;
+  }
+  .experience .right {
+    left: 0%;
+  }
+  .morebtn {
+    margin-top: 3rem;
+  }
+}
+/* experience media queries ends */
+/* experience section ends */
 
 
 /* skills section starts */
