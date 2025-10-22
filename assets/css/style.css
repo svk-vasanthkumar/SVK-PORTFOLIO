@@ -344,7 +344,7 @@ header .navbar ul li a:hover {
 .home .image img {
   width: 60%;
   margin-left: 15rem;
-  border-radius: 50%;
+  border-radius: 60% 40% 65% 35% / 39% 79% 21% 61% ;
   box-shadow: 0 2px 8px rgb(0, 166, 203);
   cursor: pointer;
   margin-bottom: 30%;
