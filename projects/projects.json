@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Employee Scalary Prediction",
+    "desc": "🔍 A Streamlit-based machine learning web app that predicts if an employee earns more than ₹50K/year using Logistic Regression.",
+    "image": "Employee Salary Prediction",
+    "category": "aiml",
+    "links": {
+      "view": "https://svk-vasanthkumar-employee-salary-prediction-by-svk-app-poy0v6.streamlit.app/",
+      "code": "https://github.com/svk-vasanthkumar/Employee-Salary-Prediction-by-SVK"
+    }
+  },
+   {
+    "name": "Real-Time Bus Tracking - NavX",
+    "desc": "🚍NavX is a real-time bus tracking system 🗺 designed for Tier-2 and Tier-3 cities with low-internet friendly performance 🌐.",
+    "image": "Bus Tracking",
+    "category": "web",
+    "links": {
+      "view": "https://svk-vasanthkumar-employee-salary-prediction-by-svk-app-poy0v6.streamlit.app/",
+      "code": "https://github.com/svk-vasanthkumar/Employee-Salary-Prediction-by-SVK"
+    }
+  },
+   {
+    "name": "Portfolio Websites",
+    "desc": "🌐 This is my personal portfolio website showcasing my projects, skills, and learning journey.",
+    "image": "Portfolio",
+    "category": "web",
+    "links": {
+      "view": "https://svk-vasanthkumar.github.io/SVK-PORTFOLIO/",
+      "code": "https://github.com/svk-vasanthkumar/SVK-PORTFOLIO"
+    }
+  },
+   {
+    "name": "🎮2D Platformer Game - escapO",
+    "desc": "✨ A simple 2D platformer game with smooth controls and multiple levels, built using HTML, CSS, and JavaScript. Designed to play on both mobile and desktop.",
+    "image": "escapO",
+    "category": "web",
+    "links": {
+      "view": "https://escap-o.vercel.app/",
+      "code": "https://github.com/svk-vasanthkumar/escapO-Game"
+    }
+  },
+   {
+    "name": "Disease Prediction Web App",
+    "desc": "Predict heart disease risk with our easy-to-use web app! 💖🩺 Just enter your age, cholesterol, and blood pressure details. It's built with Flask and ML tech. 💻✨",
+    "image": "Disease Prediction",
+    "category": "aiml",
+    "links": {
+      "view": "https://heartcare-ai-web-app.onrender.com/",
+      "code": "https://github.com/svk-vasanthkumar/HeartCare-AI-Web-App"
+    }
+  },
+  {
+    "name": "☁️ Weather Widget – Live Web",
+    "desc": "☁️ A simple weather widget built with HTML, CSS, and JavaScript that shows real-time weather information using a weather API.",
+    "image": "weather",
+    "category": "web",
+    "links": {
+      "view": "https://svk-vasanthkumar.github.io/Weather_Widget--Ex7/",
+      "code": "https://github.com/svk-vasanthkumar/Weather_Widget--Ex7"
+    }
+  },
+  {
+    "name": "💳 Bank Transaction System – JDBC",
+    "desc": "💳 A Java-based bank transaction application using JDBC to connect with a database, allowing basic banking operations like deposit, withdrawal, and balance inquiry.",
+    "image": "JDBC Bank Trans",
+    "category": "web",
+    "links": {
+      "view": "https://svk-vasanthkumar.github.io/Bank_transaction_JDBC--Ex8/",
+      "code": "https://github.com/svk-vasanthkumar/Bank_transaction_JDBC--Ex8"
+    }
+  },
+
+  {
+    "name": "📝 Adaptive Quiz Web App ",
+    "desc": "🧠 A web-based adaptive quiz application that adjusts questions based on user answers and provides real-time scoring using HTML.",
+    "image": "quiz",
+    "category": "web",
+    "links": {
+      "view": "https://svk-vasanthkumar.github.io/Adaptive_Quiz--Ex4/",
+      "code": "https://github.com/svk-vasanthkumar/Adaptive_Quiz--Ex4"
+    }
+  },
+  {
+    "name": "Day Finder - C program",
+    "desc": "This is a simple C program that takes a date (dd mm yyyy) as input and tells you the day of the week 🎉",
+    "image": "day",
+    "category": "",
+    "links": {
+      "view": "https://github.com/svk-vasanthkumar/Day-Finder-C",
+      "code": "https://github.com/svk-vasanthkumar/Day-Finder-C"
+    }
+  },
+  {
+    "name": "Student Registration Form",
+    "desc": "📋 A responsive student registration form built using HTML, CSS, and JavaScript to collect and validate student details.",
+    "image": "Stu Reg Form",
+    "category": "weg",
+    "links": {
+      "view": "https://svk-vasanthkumar.github.io/student_registration_form--Ex3/",
+      "code": "https://github.com/svk-vasanthkumar/student_registration_form--Ex3"
+    }
+  },
+  {
+    "name": "",
+    "desc": "",
+    "image": "",
+    "category": "",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  }
+
+
+]
