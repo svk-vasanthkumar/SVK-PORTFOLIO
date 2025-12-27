@@ -1,34 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
-
-
-
-
-
-
-
 /* background color */
 
 body {
-  background-color: #0a0a0a;
+  background-color: #000000;
   font-family: "Poppins", sans-serif;
 }
 
 .about {
-  background: #0a0a0a;
+  background: #000000;
 }
 
 .skills {
-  background-color:#0a0a0a;
+  background-color:#000000;
 }
 
 .education {
-  background: #0a0a0a;
+  background: #000000;
 }
 
 .contact {
-  background: #0a0a0a;
+  background: #000000;
   min-height: 60vh;
 }
 /* background color end */
@@ -58,7 +51,7 @@ body {
 }
 
 
-.education .heading i{
+/* .education .heading i{
   background: linear-gradient(
         to right,
         #d94100 20%,
@@ -73,6 +66,24 @@ body {
 }
 .education .heading span{
   color: white;
+} */
+
+.education  h2 {
+  color: #fff;
+  padding: 1rem;
+}
+.education .heading span {
+  background: linear-gradient(
+        to right,
+        #d94100 20%,
+        #bf3904 30%,
+        #d26822 70%,
+        #d23905 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 
@@ -862,10 +873,7 @@ background: linear-gradient(
   letter-spacing: 1px;
 }
 
-.education .heading span {
-  color: #ff4b5c;
-  font-family: cursive;
-}
+
 
 .education .qoute {
   font-size: 1.3rem;
@@ -904,7 +912,7 @@ background: linear-gradient(
 
 .edu-card:hover {
   transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 30px #00000099;
 }
 
 .edu-img {
@@ -1023,7 +1031,7 @@ background: linear-gradient(
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000000, #00002c);
+  background: linear-gradient(to bottom, #000000, #000000);
 }
 .work h2 {
   color: #fff;
@@ -1156,6 +1164,8 @@ background: linear-gradient(
 
 
 /* experience section starts */
+
+
 .experience .timeline {
   position: relative;
   max-width: 1200px;
