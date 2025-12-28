@@ -31,7 +31,7 @@
   },
    {
     "name": "🎮2D Platformer Game - escapO",
-    "desc": "✨ A simple 2D platformer game with smooth controls and multiple levels, built using HTML, CSS, and JavaScript. Designed to play on both mobile and desktop.",
+    "desc": "🎮A simple 2D platformer game with smooth controls and multiple levels, built using HTML, CSS, and JavaScript.",
     "image": "escapo",
     "category": "web",
     "links": {
@@ -41,7 +41,7 @@
   },
    {
     "name": "Disease Prediction Web App",
-    "desc": "Predict heart disease risk with our easy-to-use web app! 💖🩺 Just enter your age, cholesterol, and blood pressure details. It's built with Flask and ML tech. 💻✨",
+    "desc": "🩺 A simple web app that predicts heart disease risk using user health details, built with Flask and machine learning.",
     "image": "Disease Prediction",
     "category": "aiml",
     "links": {
@@ -51,7 +51,7 @@
   },
   {
     "name": "☁️ Weather Widget – Live Web",
-    "desc": "☁️ A simple weather widget built with HTML, CSS, and JavaScript that shows real-time weather information using a weather API.",
+    "desc": "☁️ A responsive weather widget fetching live weather data and displaying it with a clean UI.",
     "image": "weather",
     "category": "web",
     "links": {
